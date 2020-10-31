@@ -1,0 +1,153 @@
+/*----------------------header------------------------*/
+.fixed-home{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/services/tour-8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff8f8;
+    text-transform: uppercase;
+}
+
+
+.fixed-home h1{
+    font-weight: 700;
+    font-size: 320%;
+    margin: 2.5rem 0 1rem 0;
+}
+.fixed-home p{
+    font-size: 120%;
+    font-weight: 600;
+}
+.fixed-home p a.toother:link, a.toother:visited{
+    color: #0ab5b0;
+}
+.fixed-home p a.toother:hover, .fixed-home p a.toother:active{
+    color: #fff8f8;
+}
+
+/*------------------------MORE SERVICES-----------------------------*/
+
+.card-divs{
+    padding: 0 6rem;
+}
+.card-divs .card{
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    box-shadow:  0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-divs .card i{
+    color: #0ab5b0;
+    padding-top: .5rem;
+    margin-bottom: 2rem;
+}
+
+.card-divs .card h3{
+    text-transform: uppercase;
+    font-size: 140%;
+    font-weight: 600;
+    margin-top: .7rem;
+}
+
+.card-divs .card p{
+    font-size: 92%;
+    line-height: 2rem;
+}
+/*-------------Summer time------------------*/
+.summer-plan .fixed-home{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/services/summers.jpg);
+    height: 70vh;
+}
+
+.summer-plan .fixed-home h1{
+    font-size: 350%;
+    letter-spacing: .1px;
+}
+
+.summer-plan .fixed-home h2{
+    font-size: 250%;
+    color:#fff8f8;
+    margin-top: 1rem;
+    padding: 0 2rem;
+    letter-spacing: 1px;
+    border-bottom: 1px solid transparent;
+}
+.summer-plan .fixed-home h2:hover{
+    color: #0ab5b0;
+    border-color: #0ab5b0;
+    transform: translateY(-15px);
+    transition: all .5s;
+}
+
+/*------------OUR REVIEWS----------*/
+
+.reviews .card{
+    margin: 0 auto;
+    width: 80%;
+    padding: 3rem;
+}
+
+.reviews .card p{
+    font-size: 90%;
+    line-height: 2rem;
+}
+
+.clients img{
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+.reviews i{
+    margin-left: -1rem;
+    color: #0ab5b0;
+}
+blockquote .svg-inline--fa {
+    color: #0ab5b0;
+    margin: 1rem;
+}
+  
+.clients-hr{
+    border-top: .05rem solid #1ebba3;
+}
+
+@media (max-width: 575px) { 
+    
+}
+/* Small (sm) devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    
+}
+
+/* Medium (md) devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    .card-divs .card{
+        margin-bottom: 2rem;
+    }
+    .serve-info {
+        font-size: 105%;
+    }
+}
+
+/* Large (lg) devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    .card-divs .card{
+        width: 100%;
+    }
+
+}
+/* Extra (xl) large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .about-intro{
+        margin-top: 5rem;
+        line-height: 3rem;
+    }   
+}
+

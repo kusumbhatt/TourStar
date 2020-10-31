@@ -1,0 +1,258 @@
+
+.fixed-home{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/about/about-us.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff8f8;
+    text-transform: uppercase;
+}
+
+
+.fixed-home h1{
+    font-weight: 700;
+    font-size: 320%;
+    margin: 2.5rem 0 1rem 0;
+}
+.fixed-home p{
+    font-size: 120%;
+    font-weight: 600;
+}
+.fixed-home p a.toother:link, a.toother:visited{
+    color: #0ab5b0;
+}
+.fixed-home p a.toother:hover, .fixed-home p a.toother:active{
+    color: #fff8f8;
+}
+
+.carousel-style{
+    margin: 0 auto;
+}
+.carousel-item{
+    width: 100%;
+}
+
+.carousel-about {
+    padding: 0 4rem;
+}
+.about-intro {
+    padding: 0 4rem;
+    font-size: 90%;
+    padding-top: 1rem;
+    line-height: 1.9rem;
+}
+.about-intro .know-more{
+    margin-top: -.5rem;
+}
+/*---------Our Tie-Ups------------*/
+
+.tie-up{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/background/about-us.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.tie-up{
+    padding: 4rem 2rem;
+}
+.tie-up-brands{
+    background-color: #fff8f8;
+    box-shadow:  0 5px 15px rgba(0, 0, 0, 0.9);
+}
+.tie-up-brands div img{
+    padding: 2%;
+}
+/*----------------Our values-----------------*/
+
+.our-values{
+    padding: 0 1rem;
+}
+
+.value{
+    margin-top: 1rem;
+}
+.value .value-icon{
+    margin-bottom: .5rem;
+}
+
+.value .value-head:hover{
+    color: #0ab5b0;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.value .value-detail{
+    font-size: 95%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+/*-----------------------Customer-Count-------------------------------*/
+.customer-count{
+    background-color: #0ab5b0;
+    padding: 1.5rem 0;
+}
+
+.count{
+    width: 40%;
+    height: 60%;
+    margin: 1.5rem auto;
+    padding: 0 .5rem;
+}
+
+.count div.strong{
+    font-size: 200%;
+    padding: .3rem 0;
+}
+
+.count h6{
+    font-size: 120%;
+    text-transform: uppercase;
+}
+
+/*--------------------------------------Our teams-----------------------------------------------------*/
+.our-team{
+    height: auto;
+}
+.card{
+    width: 80%;
+    margin: 1.5rem auto;
+}
+.card img{
+    width: 100%;
+}
+.teams{
+    
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/background/about-us.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem 0;
+}
+.card:hover{
+    cursor: pointer;
+}
+.card:hover .card-bg{
+    opacity: .95;
+    transition: all .8s;
+}
+.card-bg{
+    background-color: #40474e;
+    color: #fff8f8;
+    font-size: 80%;
+    padding: 1rem 1rem 0 1rem;
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    opacity: 0;
+}
+
+.card-bg h6{
+    font-weight: 600;
+}
+
+.card-bg p{
+    letter-spacing: 2px;
+}
+
+.our-team .fab{
+    color: #fff8f8;
+    margin-right: .5rem;
+    margin-bottom: 1rem;
+    transition: all .3s;
+}
+
+.our-team .fab:hover{
+    transform: translateY(-15px);
+    transition: all .7s;
+}
+.our-team .fa-facebook:hover{
+    color: #3b5998;
+}
+
+.our-team .fa-instagram:hover{
+    color:#3f729b;
+}
+.our-team .fa-twitter:hover{
+    color:#00acee;
+}
+.our-team .fa-pinterest:hover{
+    color: #E60023;
+}
+
+.our-team .know{
+    margin: 0 auto;
+}
+
+
+@media (max-width: 575px) { 
+    
+}
+/* Small (sm) devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    
+}
+
+/* Medium (md) devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .carousel-style{  
+        margin: 0;
+        padding: 0;
+        margin-top: 2rem;
+    }
+    .carousel-about{
+        margin: 0;
+        padding: 0;
+        margin-top: .9rem;
+    }    
+    .about-intro{
+        margin: 0;
+        padding: 0;
+        padding-left: 1rem;
+        margin-top: 2rem;
+    }
+    .about-intro p{
+        margin: 0;
+        padding: 0;
+        font-size: 93%;
+        line-height: 1.9rem;
+        margin-bottom: 1.2rem;
+    }
+    .card{
+        width: 100%;
+    }
+}
+
+/* Large (lg) devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .carousel-style{
+        margin: 2rem 0;
+    }
+    .carousel-about{
+        margin: 0;
+    }
+    .about-intro p{
+        font-size: 105%;
+        line-height: 2rem;
+    }
+    
+    .value .value-detail{
+        font-size: 88%;
+    }
+}
+/* Extra (xl) large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .about-intro{
+        margin-top: 5rem;
+        line-height: 3rem;
+    }   
+}
+
+

@@ -1,0 +1,172 @@
+/*----------------------header------------------------*/
+.fixed-home{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/contact/contact-us.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff8f8;
+    text-transform: uppercase;
+}
+
+
+.fixed-home h1{
+    font-weight: 700;
+    font-size: 320%;
+    margin: 2.5rem 0 1rem 0;
+}
+.fixed-home p{
+    font-size: 120%;
+    font-weight: 600;
+}
+.fixed-home p a.toother:link, a.toother:visited{
+    color: #0ab5b0;
+}
+.fixed-home p a.toother:hover, .fixed-home p a.toother:active{
+    color: #fff8f8;
+}
+
+/*-----------------------------Contact form----------------------------*/
+
+input[type=text],input[type=email],select,textarea{
+    width:100%;
+    padding:.5rem;
+    margin-top: 1rem;
+    border-radius: .2rem;
+    border: .08rem solid  #40474e; 
+    font-size: 90%;
+}
+
+
+label{
+    font-weight: 600;
+    text-align: center;
+    font-size: 110%;
+    margin-top: 1.5rem;
+}
+
+form .know-more{
+    font-weight: 500;
+    font-size: 130%;
+    border: .15rem solid #40474e;
+    font-weight: 600;
+}
+/*----------------------Travel-----------------------------*/
+.para p{
+    font-size: 93%;
+    margin-bottom: 2rem;
+    line-height: 2rem;
+}
+
+.facilities i{
+    padding-right: .5rem;
+    margin-left: 4rem;
+}
+
+.facilities p{
+    padding: 0 5rem;
+    font-size: 90%;
+}
+
+.journey-start img{
+    height: 90%;
+    width: 50%;
+    border-radius: 50%;
+    box-shadow:  0 5px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 4rem;
+}
+
+/*----------------------pre footer-----------------------------*/
+.newsletter{
+    background-color: #0ab5b0;
+    padding: 2rem 5rem;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+}
+
+.newsletter h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 200%;
+}
+
+.newsletter h4{
+    font-weight: 400;
+    font-size: 100%;
+    letter-spacing: .5px;
+    margin-top: 3rem;
+}
+input[type=news]{
+    margin-top: 2rem;
+    background: transparent;
+    border: 0;
+    width: 90%;
+    padding: 1rem 1rem 0 1rem;
+    border-bottom: .1rem solid #40474e;
+    margin-bottom: 1rem;
+}
+.newsletter img{
+    position: relative;
+    width: 100%;
+    bottom: 40%;
+    height: 120%;
+    margin-bottom: -10%;
+}
+
+.newsletter i{
+    cursor: pointer;
+    padding-left: .5rem;
+}
+
+
+/* Small (sm) devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .facilities i{
+        margin-left: 0;
+    }
+    .facilities p{
+        font-size: 85%;
+        padding: 0 2rem;
+    }
+}
+
+/* Medium (md) devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    
+
+    .facilities p{
+        font-size: 100%;
+    }
+
+    .newsletter h1{
+        margin-top: 10%;
+    }
+    .newsletter img{
+        bottom: 30%;
+        height: 130%;
+    }
+}
+
+/* Large (lg) devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    
+    .journey-start img{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .facilities{
+        font-size: 110%;
+        margin-top: 2rem;
+    }
+}
+/* Extra (xl) large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .facilities{
+        margin-top: 3rem;
+    }
+}
+
