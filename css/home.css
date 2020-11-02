@@ -7,9 +7,10 @@ nav{
 .banner{
     position: absolute;
     left: 25%;
-    transform: translateY(-200%);
+    transform: translateY(-160%);
     transition: transform 3s;
     z-index: 9999;
+    display: none;
 }
 
 .banner h3.cursive-head{
@@ -185,7 +186,9 @@ blockquote .svg-inline--fa {
 
 /* Large (lg) devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    
+    .banner{
+        display: block;
+    }
 }
 /* Extra (xl) large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
