@@ -3,6 +3,7 @@
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/tours/canb.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     height: 45vh;
     display: flex;
@@ -39,9 +40,6 @@
     margin-bottom: 2rem;
 }
 
-.card img{
-    width: 100%;
-}
 
 .info-front a, .info-front a{
     color: #fff8f8;
@@ -110,11 +108,12 @@
 
 /*-------------------------------------OFFER----------------------------------------*/
 .offer{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/tours/canb.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/tours/grand-swtizerland.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
+    background-attachment: fixed;
     padding: 5rem 0;
 }
 

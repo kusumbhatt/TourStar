@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 45vh;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,7 +53,7 @@
 /*---------Our Tie-Ups------------*/
 
 .tie-up{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/background/about-us.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/about/about-us.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -130,10 +131,11 @@
 }
 .teams{
     
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/background/about-us.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/about/about-us.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     padding: 2rem 0;
 }
 .card:hover{

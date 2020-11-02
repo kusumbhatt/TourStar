@@ -4,6 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     height: 45vh;
     display: flex;
     flex-direction: column;
@@ -63,6 +64,7 @@
 .summer-plan .fixed-home{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/services/summers.jpg);
     height: 70vh;
+    background-attachment: fixed;
 }
 
 .summer-plan .fixed-home h1{
