@@ -3,8 +3,11 @@ $(document).ready(function () {
   $(".toggle-btn").click(function () {
     let nav = $(".nav-links");
     let icon = $(".toggle-btn i");
-    if (nav.hasClass("open-btn")) nav.removeClass("open-btn");
-    else nav.addClass("open-btn");
+    if (nav.hasClass("open-btn")) {
+      nav.removeClass("open-btn");
+    } else {
+      nav.addClass("open-btn");
+    }
 
     if (icon.hasClass("fa-bars")) {
       icon.addClass("fa-times");
