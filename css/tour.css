@@ -1,208 +1,210 @@
 /*----------------------header------------------------*/
-.fixed-home{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/tours/canb.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 45vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #40474e;
-    color: #fff8f8;
-    text-transform: uppercase;
+.fixed-home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/tours/canb.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #40474e;
+  color: #fff8f8;
+  text-transform: uppercase;
 }
 
-
-.fixed-home h1{
-    font-weight: 700;
-    font-size: 320%;
-    margin: 2.5rem 0 1rem 0;
+.fixed-home h1 {
+  font-weight: 700;
+  font-size: 320%;
+  margin: 2.5rem 0 1rem 0;
 }
-.fixed-home p{
-    font-size: 120%;
-    font-weight: 600;
+.fixed-home p {
+  font-size: 120%;
+  font-weight: 600;
 }
-.fixed-home p a.toother:link, a.toother:visited{
-    color: #0ab5b0;
+.fixed-home p a.toother:link,
+a.toother:visited {
+  color: #0ab5b0;
 }
-.fixed-home p a.toother:hover, .fixed-home p a.toother:active{
-    color: #fff8f8;
+.fixed-home p a.toother:hover,
+.fixed-home p a.toother:active {
+  color: #fff8f8;
 }
 /*------------------------MAJOR TOURS---------------------------*/
-.major-tours{
-    padding: 0;
+.major-tours {
+  padding: 0;
 }
-.card{
-    position: relative;
-    margin-bottom: 2rem;
-}
-
-
-.info-front a, .info-front a{
-    color: #fff8f8;
+.card {
+  position: relative;
+  margin-bottom: 2rem;
 }
 
-.info-front, .info-back{
-    position: absolute;
-    bottom: 50%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-weight: 700;
-    font-size: 180%;
+.info-front a,
+.info-front a {
+  color: #fff8f8;
 }
 
-.info-front{
-    bottom: 10%;
-    opacity: 1;
-    text-align: center;
-    transform: rotate(0deg);
-    transition: opacity 2s, transform 2s;
-}
-.info-back{
-    transform: rotateY(90deg);
-    bottom: 40%;
-    opacity: 0;
-    transition: opacity 2s, transform 2s;
-}
-.info-back p{
-    padding: .5rem;
-    color: #fff8f8;
-}
-.card:hover .color-bg{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+.info-front,
+.info-back {
+  position: absolute;
+  bottom: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: 700;
+  font-size: 180%;
 }
 
-.view-more{
-    font-weight: 600;
-    text-transform: uppercase;
-    background-color: #0ab5b0;
-    color: #fff8f8;
-    padding: .5rem 2rem;
-    margin-top: .5rem;
-    border-radius: 0;
+.info-front {
+  bottom: 10%;
+  opacity: 1;
+  text-align: center;
+  transform: rotate(0deg);
+  transition: opacity 2s, transform 2s;
+}
+.info-back {
+  transform: rotateY(90deg);
+  bottom: 40%;
+  opacity: 0;
+  transition: opacity 2s, transform 2s;
+}
+.info-back p {
+  padding: 0.5rem;
+  color: #fff8f8;
+}
+.card:hover .color-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
 }
 
-.view-more:hover{
-    background-color: #fff8f8;
-    color: #0ab5b0;
-    transition: all .4s;
+.view-more {
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #0ab5b0;
+  color: #fff8f8;
+  padding: 0.5rem 2rem;
+  margin-top: 0.5rem;
+  border-radius: 0;
 }
 
-.card:hover .info-front{
-    transform: rotateY(90deg);
-    opacity: 0;
-    transition: opacity 2s, transform 2s;
+.view-more:hover {
+  background-color: #fff8f8;
+  color: #0ab5b0;
+  transition: all 0.4s;
 }
-.card:hover .info-back{
-    transform: rotateY(0);
-    opacity: 1;
-    transition: all 2s;
+
+.card:hover .info-front {
+  transform: rotateY(90deg);
+  opacity: 0;
+  transition: opacity 2s, transform 2s;
+}
+.card:hover .info-back {
+  transform: rotateY(0);
+  opacity: 1;
+  transition: all 2s;
 }
 
 /*-------------------------------------OFFER----------------------------------------*/
-.offer{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/tours/grand-swtizerland.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: auto;
-    background-attachment: fixed;
-    padding: 5rem 0;
+.offer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/tours/grand-swtizerland.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  background-attachment: fixed;
+  padding: 5rem 0;
 }
 
-.card-offer{
-    background-color: #0ab5b0;
-    padding: 4rem 2rem;
+.card-offer {
+  background-color: #0ab5b0;
+  padding: 4rem 2rem;
 }
 
-.card-offer h1{
-    font-size: 180%;
-    font-weight: 700;
-    margin-bottom: 1.3rem;
-    text-transform: uppercase;
+.card-offer h1 {
+  font-size: 180%;
+  font-weight: 700;
+  margin-bottom: 1.3rem;
+  text-transform: uppercase;
 }
 
-.card-offer .info{
-    font-size: 95%;
-    line-height: 2rem;
+.card-offer .info {
+  font-size: 95%;
+  line-height: 2rem;
 }
 /*-----------------------Destinations-----------------------*/
 
-.popular .info-front, .popular .info-back{
-    font-size: 120%;
+.popular .info-front,
+.popular .info-back {
+  font-size: 120%;
 }
 
-.popular .info-back{
-    bottom: 30%;
+.popular .info-back {
+  bottom: 30%;
 }
 
-@media (max-width: 575px) { 
-    
+@media (max-width: 575px) {
 }
 /* Small (sm) devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-    
+@media (min-width: 576px) {
 }
 
 /* Medium (md) devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    .carousel-style{  
-        margin: 0;
-        padding: 0;
-        margin-top: 2rem;
-    }
-    .carousel-about{
-        margin: 0;
-        padding: 0;
-        margin-top: .9rem;
-    }    
-    .about-intro{
-        margin: 0;
-        padding: 0;
-        padding-left: 1rem;
-        margin-top: 2rem;
-    }
-    .about-intro p{
-        margin: 0;
-        padding: 0;
-        font-size: 93%;
-        line-height: 1.9rem;
-        margin-bottom: 1.2rem;
-    }
-    .card{
-        width: 100%;
-    }
+  .carousel-style {
+    margin: 0;
+    padding: 0;
+    margin-top: 2rem;
+  }
+  .carousel-about {
+    margin: 0;
+    padding: 0;
+    margin-top: 0.9rem;
+  }
+  .about-intro {
+    margin: 0;
+    padding: 0;
+    padding-left: 1rem;
+    margin-top: 2rem;
+  }
+  .about-intro p {
+    margin: 0;
+    padding: 0;
+    font-size: 93%;
+    line-height: 1.9rem;
+    margin-bottom: 1.2rem;
+  }
+  .card {
+    width: 100%;
+  }
 }
 
 /* Large (lg) devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    .carousel-style{
-        margin: 2rem 0;
-    }
-    .carousel-about{
-        margin: 0;
-    }
-    .about-intro p{
-        font-size: 105%;
-        line-height: 2rem;
-    }
-    
-    .value .value-detail{
-        font-size: 88%;
-    }
+  .carousel-style {
+    margin: 2rem 0;
+  }
+  .carousel-about {
+    margin: 0;
+  }
+  .about-intro p {
+    font-size: 105%;
+    line-height: 2rem;
+  }
+
+  .value .value-detail {
+    font-size: 88%;
+  }
 }
 /* Extra (xl) large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    .about-intro{
-        margin-top: 5rem;
-        line-height: 3rem;
-    }   
+  .about-intro {
+    margin-top: 5rem;
+    line-height: 3rem;
+  }
 }
-
